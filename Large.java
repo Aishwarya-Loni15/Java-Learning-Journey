@@ -6,9 +6,3 @@ public class Large{
             if(numbers[i]>largest){
                 largest=numbers[i];
 
-            }
-        }
-        System.out.println("largest "+largest);  
-    }
-
-}
