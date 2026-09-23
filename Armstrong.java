@@ -11,16 +11,4 @@ public class Armstrong {
         int original = num;
         int sum = 0;
 
-        while (num != 0) {
-            int digit = num % 10;
-            sum = sum + (digit * digit * digit);
-            num = num / 10;
-        }
-
-        if (original == sum) {
-            System.out.println("Armstrong number");
-        } else {
-            System.out.println("Not an Armstrong number");
-        }
-    }
-}
+     
