@@ -15,10 +15,3 @@ abstract class Bank {
     }
 }
 
-class SBI extends Bank {
-
-    @Override
-    void interestRate() {
-        System.out.println("Interest Rate: 7%");
-    }
-}
