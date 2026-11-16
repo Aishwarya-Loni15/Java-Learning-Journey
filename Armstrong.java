@@ -16,11 +16,3 @@ public class Armstrong {
             sum = sum + (digit * digit * digit);
             num = num / 10;
         }
-
-        if (original == sum) {
-            System.out.println("Armstrong number");
-        } else {
-            System.out.println("Not an Armstrong number");
-        }
-    }
-}
