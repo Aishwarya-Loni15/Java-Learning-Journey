@@ -12,4 +12,10 @@ public class PrimeNumber {
                 if (num % i == 0) {
                     isPrime = false;
                     break;
-           
+                }}
+            if (isPrime) {
+                System.out.print(num + " ");
+            }}
+    }
+        
+    }
